@@ -39,7 +39,7 @@ public class MovieMembershipTest {
             System.out.println(movieMembership.getMemberDetails() + "\n");
         }
 
-        // Testing Step 5 - Check for password. 
+        // Testing Step 5 - Check for password.
         myGold.accessVIPLounge();
 
         // Testing Step 6 - Test purchase alcohol method.
@@ -56,7 +56,7 @@ public class MovieMembershipTest {
         myIMAX.purchaseMovieTicket(14.50, "Godzilla vs Kong", "IMAX", 15, 0, "Gummies");
 
         // Testing Step 10 - Print each member details.
-        System.out.println("\n" +mySilver.getMemberDetails() + "\n");
+        System.out.println("\n" + mySilver.getMemberDetails() + "\n");
         System.out.println(myGold.getMemberDetails() + "\n");
         System.out.println(myIMAX.getMemberDetails() + "\n");
     }
